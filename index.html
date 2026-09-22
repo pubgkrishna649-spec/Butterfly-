@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#090914">
+<title>20 September — For My Butterfly 🦋</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Parisienne&display=swap');
+:root{--bg:#070711;--bg2:#121022;--text:#fbf8ff;--muted:#c9c3d8;--pink:#f5a9cb;--rose:#ffcadf;--lav:#c5b8ff;--glass:rgba(255,255,255,.065);--line:rgba(255,255,255,.13)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 15% 10%,rgba(197,184,255,.12),transparent 28%),radial-gradient(circle at 85% 22%,rgba(245,169,203,.12),transparent 30%),radial-gradient(circle at 50% 0%,#24182f 0,#090914 42%,#05050b 100%);color:var(--text);font-family:Inter,sans-serif;overflow-x:hidden}body:after{content:"";position:fixed;inset:-20%;pointer-events:none;background:radial-gradient(circle at 50% 50%,rgba(245,169,203,.035),transparent 45%);animation:breath 8s ease-in-out infinite;z-index:-1}@keyframes breath{50%{transform:scale(1.08);opacity:.7}}body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:90px 90px;opacity:.09;animation:drift 25s linear infinite}@keyframes drift{to{background-position:90px 90px}}button{font:inherit;color:inherit;cursor:pointer}.screen{min-height:100svh;display:grid;place-items:center;padding:28px 20px;position:relative}.center{text-align:center;max-width:760px;margin:auto}.script{font-family:Parisienne,cursive}.serif{font-family:"Cormorant Garamond",serif}.eyebrow{letter-spacing:.22em;text-transform:uppercase;font-size:.68rem;color:#aaa1bd}.title{font-family:"Cormorant Garamond",serif;font-size:clamp(3rem,13vw,7.5rem);line-height:.88;margin:18px 0;font-weight:500}.subtitle{color:var(--muted);font-size:clamp(.95rem,2.8vw,1.15rem);line-height:1.8}.btn{border:1px solid rgba(244,169,200,.45);background:rgba(244,169,200,.08);border-radius:999px;padding:13px 22px;margin-top:25px;transition:.3s}.btn:hover{background:rgba(244,169,200,.18);transform:translateY(-2px)}.glow{color:var(--pink);text-shadow:0 0 35px rgba(244,169,200,.35)}.butterfly{font-size:clamp(3rem,12vw,6rem);display:block;animation:float 4s ease-in-out infinite;filter:drop-shadow(0 0 18px rgba(185,167,255,.45))}@keyframes float{50%{transform:translateY(-14px) rotate(2deg)}}.intro{position:fixed;z-index:20;inset:0;background:#070710;display:grid;place-items:center;transition:opacity .9s,visibility .9s}.intro.hide{opacity:0;visibility:hidden}.envelope{width:210px;height:145px;position:relative;margin:0 auto 18px;transform:translateY(0);animation:float 4s ease-in-out infinite}.env-body{position:absolute;inset:0;background:linear-gradient(145deg,#2b2037,#171426);border:1px solid rgba(255,255,255,.15);border-radius:10px;box-shadow:0 25px 70px #0008}.flap{position:absolute;left:0;top:0;width:0;height:0;border-left:105px solid transparent;border-right:105px solid transparent;border-top:76px solid #49314d;transform-origin:top;transition:.8s;z-index:2}.intro.open .flap{transform:rotateX(165deg)}.seal{position:absolute;z-index:3;left:50%;top:55%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#e89ab9;color:#251521;box-shadow:0 0 30px #e89ab966}.section{padding:100px 20px;max-width:980px;margin:auto;position:relative}.section h2{font:500 clamp(2.4rem,8vw,5rem)/.95 "Cormorant Garamond",serif;margin:10px 0 24px}.lead{font:300 clamp(1.05rem,3vw,1.3rem)/1.9 Inter;color:var(--muted);max-width:720px}.divider{width:70px;height:1px;background:linear-gradient(90deg,var(--pink),transparent);margin:25px 0}.reveal{opacity:0;transform:translateY(35px);transition:opacity .9s ease,transform .9s ease}.reveal.show{opacity:1;transform:none}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:30px}.card{padding:24px;border:1px solid var(--line);background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.018));border-radius:22px;backdrop-filter:blur(16px);min-height:150px;box-shadow:0 18px 60px rgba(0,0,0,.16),inset 0 1px rgba(255,255,255,.05);transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease}.card:hover{transform:translateY(-4px);border-color:rgba(245,169,203,.25);box-shadow:0 24px 70px rgba(0,0,0,.24),0 0 30px rgba(245,169,203,.05)}.card b{display:block;font:600 1.45rem "Cormorant Garamond",serif;margin-bottom:10px}.card p{color:var(--muted);line-height:1.7;margin:0}.timeline{border-left:1px solid rgba(244,169,200,.3);padding-left:25px;margin:35px 0}.event{position:relative;margin:0 0 40px}.event:before{content:"";position:absolute;left:-31px;top:7px;width:10px;height:10px;border-radius:50%;background:var(--pink);box-shadow:0 0 20px var(--pink)}.date{font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:var(--pink)}.names{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:28px 0}.pill{padding:10px 15px;border-radius:999px;border:1px solid var(--line);background:var(--glass);color:#eee6f7}.promise{font:500 clamp(2rem,6vw,4.5rem)/1.05 "Cormorant Garamond",serif;text-align:center;margin:45px auto;max-width:760px}.datebox{text-align:center;padding:55px 20px;position:relative;overflow:hidden;border:1px solid var(--line);border-radius:30px;background:radial-gradient(circle,#21172a,#0c0b15);box-shadow:0 20px 80px #0006}.datebox:before{content:'♡';position:absolute;top:-45px;right:-15px;font:400 160px/1 'Cormorant Garamond',serif;color:rgba(245,169,203,.035);transform:rotate(15deg)}.big25{font:600 clamp(7rem,30vw,14rem)/.8 "Cormorant Garamond",serif;color:var(--pink);text-shadow:0 0 45px #f4a9c833}.counter{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:35px}.counter div{padding:18px 8px;border:1px solid var(--line);border-radius:18px;background:var(--glass)}.counter strong{display:block;font:600 clamp(1.5rem,5vw,2.6rem) "Cormorant Garamond",serif}.counter span{font-size:.65rem;color:var(--muted);letter-spacing:.08em}.letter{background:linear-gradient(145deg,#161323,#0c0b13);border:1px solid var(--line);border-radius:28px;padding:clamp(24px,6vw,55px);box-shadow:0 30px 90px #0008}.letter p{font:400 1.06rem/2 "Cormorant Garamond",serif;color:#eee8f5;margin:0 0 20px}.letter .big{font-size:1.55rem;color:#fff}.lock{font-size:2rem}.secret{display:none;margin-top:18px;padding:20px;border-radius:18px;background:#ffffff08;border:1px solid var(--line);color:var(--muted);line-height:1.7}.secret.open{display:block}.music{position:fixed;z-index:10;right:15px;top:15px;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:#11101bcc;backdrop-filter:blur(10px)}.progress{position:fixed;z-index:11;left:0;top:0;height:2px;background:linear-gradient(90deg,var(--pink),var(--lav));width:0}.footer{text-align:center;padding:100px 20px 70px}.heart{font-size:1.8rem;animation:pulse 1.7s infinite}@keyframes pulse{50%{transform:scale(1.2)}}.fade{color:var(--muted)}.hidden{display:none!important}.final{background:radial-gradient(circle at 50% 40%,#27182e,#090914 65%)}.butterflies span{position:fixed;pointer-events:none;opacity:0;animation:rise 8s linear infinite}.butterflies span:nth-child(1){left:8%;animation-delay:1s}.butterflies span:nth-child(2){left:28%;animation-delay:3s}.butterflies span:nth-child(3){left:55%;animation-delay:0s}.butterflies span:nth-child(4){left:78%;animation-delay:5s}@keyframes rise{0%{bottom:-5%;opacity:0;transform:translateX(0) rotate(0)}15%{opacity:.6}100%{bottom:105%;opacity:0;transform:translateX(70px) rotate(25deg)}}
+.romantic-line{font:400 clamp(1.7rem,5vw,3.2rem)/1.15 "Cormorant Garamond",serif;color:#fff;text-align:center;margin:34px auto;max-width:720px}
+.romantic-line span{color:var(--pink)}
+.apology-box{margin:30px auto 0;padding:28px;border:1px solid rgba(245,169,203,.2);border-radius:24px;background:linear-gradient(145deg,rgba(245,169,203,.07),rgba(255,255,255,.025));text-align:center;box-shadow:0 20px 70px rgba(0,0,0,.2)}
+.apology-box .small-heart{font-size:28px;margin-bottom:10px}
+.love-orbit{position:relative;width:min(300px,78vw);height:min(300px,78vw);margin:30px auto;display:grid;place-items:center}
+.love-orbit:before,.love-orbit:after{content:"";position:absolute;border:1px solid rgba(245,169,203,.13);border-radius:50%;inset:8%;animation:orbitPulse 4s ease-in-out infinite}
+.love-orbit:after{inset:20%;animation-delay:1.2s}
+@keyframes orbitPulse{50%{transform:scale(1.06);opacity:.55}}
+.love-core{font-size:58px;filter:drop-shadow(0 0 25px rgba(245,169,203,.35));animation:float 4s ease-in-out infinite}
+@media(max-width:650px){.cards{grid-template-columns:1fr}.counter{grid-template-columns:repeat(2,1fr)}.section{padding:75px 18px}.letter p{font-size:1rem}.title{font-size:clamp(3rem,16vw,5.5rem)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="butterflies"><span>🦋</span><span>🦋</span><span>🦋</span><span>🦋</span></div>
+
+<div class="intro" id="intro">
+  <div class="center">
+    <div class="envelope" id="env"><div class="env-body"></div><div class="flap"></div><div class="seal">🦋</div></div>
+    <div class="eyebrow">A little something for you</div>
+    <h1 class="serif" style="font-size:clamp(2.4rem,9vw,5rem);margin:12px 0">For my Butterfly</h1>
+    <p class="fade">A little corner of the internet, made only for us.</p>
+    <button class="btn" id="openBtn">Open & play our song →</button>
+  </div>
+</div>
+
+<button class="music" id="musicBtn" aria-label="Music">♫</button>
+<audio id="music" loop preload="auto"></audio>
+
+<main>
+<section class="screen">
+ <div class="center reveal show">
+  <span class="butterfly">🦋</span>
+  <div class="eyebrow">Krishna → Butterfly</div>
+  <h1 class="title">For My <span class="glow">Butterfly</span></h1>
+  <p class="subtitle">One message. One year. A thousand little moments.<br><span style="color:var(--rose)">And somehow, my favourite one is still you.</span> 🦋</p>
+  <button class="btn" onclick="document.getElementById('start').scrollIntoView()">Begin our story ↓</button>
+ </div>
+</section>
+
+<section class="section" id="start">
+ <div class="reveal">
+  <div class="eyebrow">Chapter 01</div><h2>It started with one message.</h2><div class="divider"></div>
+  <p class="lead">You sent me the first message on Instagram. I had no idea that one little message would become the beginning of something so important to me.</p>
+  <div class="timeline">
+   <div class="event"><div class="date">Last week of September</div><h3 class="serif" style="font-size:2rem">Two people started talking…</h3><p class="fade">And slowly became something neither of us expected.</p></div>
+   <div class="event"><div class="date">Then, day by day</div><h3 class="serif" style="font-size:2rem">You became my favourite conversation.</h3><p class="fade">And somewhere along the way, “talking” became “us”.</p></div>
+  </div>
+ </div>
+</section>
+
+
+<section class="section">
+<div class="reveal">
+<div class="eyebrow">Please remember this</div>
+<h2>Aap bolti ho main changed ho raha ho…</h2>
+<p class="lead">Lekin sach bataun Babu, main andar se waisa hi hoon jaisa pehle tha. Mere andar aapke liye kuch change nahi hua hai. Aapke liye mera pyaar, meri care aur aapko apne paas rakhne ki meri wish — kuch bhi kam nahi hua, Babu.</p>
+<p class="lead">Haan, meri stupid mistakes kabhi-kabhi aapko hurt kar deti hain. Aur jab bhi main aapko hurt karta hoon na, mujhe khud bahut zyada dukh hota hai. Main aapko kabhi jaan-bujhkar hurt nahi karta aur aapse jhooth bhi nahi bolna chahta.</p>
+<p class="promise glow">Meri memory kabhi-kabhi fail ho sakti hai, meri feelings nahi. ❤️</p>
+<div class="cards">
+<div class="card"><b>🍕 Pizza</b><p>Meri Babu ko sabse zyada pizza pasand hai.</p></div>
+<div class="card"><b>🍡 Gulab Jamun</b><p>Pani puri bhi pasand hai, lekin gulab jamun sabse zyada.</p></div>
+<div class="card"><b>🏏 Virat</b><p>Aapka favourite celebrity.</p></div>
+<div class="card"><b>🤍 White</b><p>Aapka favourite colour.</p></div>
+<div class="card"><b>🎵 Ranjha</b><p>Aapka shayad favourite song.</p></div>
+<div class="card"><b>✍️ Poetry</b><p>Aapko poetry likhna aur poetry books padhna pasand hai.</p></div>
+<div class="card"><b>🍂 Autumn & Winter</b><p>Aapko ye seasons pasand hain.</p></div>
+<div class="card"><b>📺 Behadd</b><p>10–11 saal pehle dekha tha, aur usme aapko Maya pasand thi.</p></div>
+</div>
+<p class="lead">Kabhi-kabhi tension mein koi cheez accidentally bhool jaata hoon, lekin iska matlab kabhi bhi ye nahi ki aap mere liye important nahi ho.</p>
+</div>
+</section>
+
+<section class="section">
+ <div class="reveal center">
+  <div class="eyebrow">Chapter 02</div><h2>Why “Butterfly”? 🦋</h2>
+  <span class="butterfly">🦋</span>
+  <p class="lead" style="margin:auto">The very first nickname I ever gave you was Butterfly.</p>
+  <div class="names"><span class="pill">Babu</span><span class="pill">Baby</span><span class="pill">Masooqa</span><span class="pill">Mommy</span></div>
+  <p class="promise glow">You will always be my Butterfly first. 🦋</p>
+ </div>
+</section>
+
+<section class="section">
+ <div class="reveal">
+  <div class="eyebrow">Chapter 03</div><h2>The first thing I noticed…</h2><div class="divider"></div>
+  <p class="lead">It wasn't something complicated.</p>
+  <p class="promise">It was the way you <span class="glow">cared about me.</span></p>
+  <p class="lead">The way you worried about me. The way you noticed things. The way you made me feel important.</p>
+  <p class="lead">And somehow, all those little things made me fall for you a little more every day.</p>
+ </div>
+</section>
+
+<section class="section">
+ <div class="reveal">
+  <div class="eyebrow">Chapter 04</div><h2>You probably don't even realise…</h2>
+  <div class="cards">
+   <div class="card"><b>You make time for me.</b><p>Even when you're busy, you still find a little time for me.</p></div>
+   <div class="card"><b>You take the risk.</b><p>You find time for me even knowing your family is strict.</p></div>
+   <div class="card"><b>You give me priority.</b><p>Even on days when there are a hundred other things going on.</p></div>
+   <div class="card"><b>You care.</b><p>And that care is one of the reasons my love for you keeps growing.</p></div>
+  </div>
+  <p class="promise glow">Maybe these things seem small to you…<br>But they mean everything to me.</p>
+ </div>
+</section>
+
+<section class="section">
+ <div class="reveal">
+  <div class="eyebrow">Chapter 05</div><h2>Our little memories ❤️</h2>
+  <div class="cards">
+   <div class="card"><b>Birthday days 🎂</b><p>Celebrating each other's birthdays and making those days feel a little more special.</p></div>
+   <div class="card"><b>Late conversations 🌙</b><p>All those conversations that somehow made hours disappear.</p></div>
+   <div class="card" style="grid-column:1/-1;text-align:center"><div class="lock">🔐</div><b>Our little secret</b><p>Some memories don't need to be written down. They just need to stay between us.</p><button class="btn" id="secretBtn">Open our secret</button><div class="secret" id="secret">Some things are simply ours. No explanation needed. Just a little smile whenever we remember. ❤️</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="reveal center">
+  <div class="eyebrow">Chapter 06</div><h2>We're not perfect.</h2>
+  <p class="lead" style="margin:auto">We fight. Sometimes I hurt you. Sometimes I say sorry way too many times. 😭 And somehow, you still forgive me.</p>
+  <div class="promise">Fight → Sorry → Forgiveness → <span class="glow">Us ❤️</span></div>
+  <p class="lead" style="margin:auto">I know I'm not perfect, Babu.</p>
+ </div>
+</section>
+
+<section class="section">
+ <div class="reveal">
+  <div class="eyebrow">Chapter 07</div><h2>One thing I want you to know…</h2><div class="divider"></div>
+  <p class="lead">Whenever I hurt you, it hurts me too.</p>
+  <p class="promise">I never intentionally hurt you, <span class="glow">Babu.</span></p>
+  <p class="lead">And I never want to lie to you. I want you to trust me. I want you to feel safe with me. I want you to know that my feelings for you are real.</p>
+  <p class="promise glow">I am always yours, Butterfly. 🦋</p>
+ </div>
+</section>
+
+<section class="section">
+ <div class="reveal">
+  <div class="eyebrow">The date that became ours</div>
+  <div class="datebox">
+   <p class="fade">20 September</p><p class="serif" style="font-size:1.8rem">The date I forgot…</p>
+   <div style="font-size:2rem;margin:25px">↓</div>
+   <div class="big25">20</div><div class="eyebrow">September 2026</div>
+   <p class="serif" style="font-size:2rem">Our real day. ❤️</p>
+   <p class="lead" style="margin:auto">Babu, I am truly sorry. Mujhe 20 September yaad rakhna chahiye tha. Main jaanta hoon ki yeh sirf ek date nahi thi — yeh humari story ka woh din hai jo mere liye sabse special hona chahiye tha.</p>
+   <p class="lead" style="margin:22px auto 0">Aap mujhe maaf kar do. Main perfect nahi hoon, kabhi-kabhi meri memory fail ho sakti hai, lekin aapke liye meri feelings kabhi fail nahi hongi. ❤️</p>
+   <p class="promise glow" style="font-size:clamp(2rem,6vw,3.5rem)">20 September — the day my heart chose you. 🦋</p>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="reveal center">
+  <div class="eyebrow">Chapter 09</div><h2>1 YEAR OF US</h2>
+  <p class="lead" style="margin:auto">And somehow… I still want more.</p>
+  <div class="counter">
+   <div><strong>365</strong><span>DAYS</span></div>
+   <div><strong>8,760</strong><span>HOURS</span></div>
+   <div><strong>525,600</strong><span>MINUTES</span></div>
+   <div><strong>31,536,000</strong><span>SECONDS</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="reveal">
+  <div class="eyebrow">The part I really wanted you to read</div><h2>A letter for my Butterfly…</h2>
+  <div class="center"><button class="btn" id="letterBtn">Open my heart ❤️</button></div>
+  <div id="letterWrap" class="hidden" style="margin-top:35px">
+   <div class="letter">
+    <p>Babu,</p>
+    <p>Kabhi-kabhi main sochta hoon ki humari story kitni simple si shuru hui thi — Instagram par aapka ek message… aur phir dheere-dheere pata hi nahi chala ki aap meri zindagi ka itna important hissa kab ban gayi.</p>
+    <p>September ke last week mein shuru hui woh baatein aaj ek saal tak aa pahunchi hain. Ek saal… itni saari conversations, calls, fights, sorrys, hasi, pyaar, care aur woh choti-choti cheezein jo shayad duniya ke liye kuch bhi na ho, lekin mere liye sab kuch hain.</p>
+    <p>Mujhe aapke andar sabse pehli jo cheez pasand aayi thi, woh thi <b>aapka mera care karna.</b> Aap meri chinta karti ho, meri fikr karti ho aur mujhe importance deti ho. Aur sach kahun Babu, aapki yehi choti-choti baatein mere dil mein aapke liye mohabbat har din aur badha deti hain.</p>
+    <p>Aap mere liye apne ghar walon se chupkar waqt nikalti ho Babu. Ye jaante hue bhi ki woh kitne strict hain, phir bhi aap mujhe priority deti ho. Pura din chahe aap kitni bhi busy raho, phir bhi mere liye kahin na kahin se waqt nikal hi leti ho.</p>
+    <p>Shayad aapko kabhi realise bhi nahi hota ki aapki ye choti si effort mere liye kitni badi baat hai.</p>
+    <p>Mujhe aapse bade-bade gifts nahi chahiye. Mujhe bas aapka saath chahiye. Aapka mera haal poochna, meri fikr karna, bina kisi reason ke mujhe yaad karna, aur busy hone ke baad bhi mere liye time nikalna — mere liye ye sab duniya ki kisi bhi cheez se zyada precious hai.</p>
+    <p>Aur Babu… main jaanta hoon ki main perfect nahi hoon.</p>
+    <p>Kabhi-kabhi meri wajah se aap hurt ho jaati ho. Aur sach bataun, <b>jab bhi main aapko hurt karta hoon na, mujhe khud usse bhi zyada dukh hota hai.</b></p>
+    <p>Main shayad har baar sahi tareeke se express nahi kar pata, lekin andar se mujhe bahut bura lagta hai ki meri wajah se meri Butterfly ki aankhon mein sadness aaye.</p>
+    <p>Aur ek baat main dil se kehna chahta hoon—<br><b>Main aapko kabhi bhi jaan-bujhkar hurt nahi karta, Babu.</b></p>
+    <p>Kabhi meri koi baat galat lag jaaye, kabhi mujhse koi mistake ho jaaye, kabhi main bina soche kuch bol doon… lekin mera intention kabhi aapko hurt karna nahi hota.</p>
+    <p>Aur main aapse jhooth bhi nahi bolna chahta.</p>
+    <p>Aap mere liye itni important ho ki main aapke saath fake reh hi nahi sakta. Main chahta hoon ki aapko mujh par trust rahe, kyunki mere liye relationship sirf pyaar ka naam nahi hai — trust, honesty, care aur ek-dusre ko samajhna bhi utna hi important hai.</p>
+    <p>Hum ladte hain.<br>Main sorry bolta hoon. 😭<br>Aap naraz hoti ho.<br>Phir aap mujhe maaf kar deti ho.</p>
+    <p>Aur har baar mujhe lagta hai ki main kitna lucky hoon ki meri life mein aap jaisi person hai.</p>
+    <p>Kabhi-kabhi main sochta hoon ki aap mere liye itna sab kaise kar leti ho.</p>
+    <p>Apne ghar walon se chupkar mere liye waqt nikalna, pura din busy hone ke baad bhi mujhe time dena, meri choti-choti baaton ko notice karna, meri fikr karna…</p>
+    <p><b>Babu, ye sab mere liye love ki sabse beautiful forms hain.</b></p>
+    <p>Aur Butterfly, agar kabhi aapko lage ki main aapko enough love nahi karta, toh meri ek baat yaad rakhna—</p>
+    <p class="big"><b>Main har din aapko kal se zyada chahta hoon.</b></p>
+    <p>Shayad main har baar perfect words mein express nahi kar pata, lekin meri feelings real hain.</p>
+    <p>Aap meri life mein sirf ek person nahi ho. Aap woh person ho jiske saath main apni happiness share karna chahta hoon, apni problems share karna chahta hoon, apni stupid stories sunana chahta hoon, aur bina kisi reason ke bas baat karte rehna chahta hoon.</p>
+    <p>Aapke saath kuch special karna zaroori nahi hota. Kabhi-kabhi bas aapse baat karna hi mera favourite part of the day hota hai.</p>
+    <p>Aur humari woh naughty-naughty baatein… 😭❤️<br>Woh bhi humari story ka ek chhota sa secret hai — jo sirf hum dono samajhte hain.</p>
+    <p><i>Some memories don't need to be written down.<br>They just need to stay between us. ❤️</i></p>
+    <p>Aur haan… humari anniversary wali kahani bhi thodi funny hai. 😭</p>
+    <p>Main 20 September ko bhool gaya.</p>
+    <p>Mujhe pata hai Babu, aapko bura laga tha. Aur mujhe bhi bahut bura laga ki jis din ko humein celebrate karna chahiye tha, main usi din ko yaad nahi rakh paya.</p>
+    <p>Aur Babu, mujhe bas itna pata hai ki <b>20 September hamari woh date hai jo mere liye hamesha special rahegi.</b></p>
+    <p>Calendar par ek date ho sakti hai, lekin mere liye us date ke peeche <b>aap ho, hum ho, aur woh saari feelings hain</b> jo main kabhi khona nahi chahta.</p>
+    <p class="big"><b>Kuch dates sirf yaad rakhi jaati hain… aur kuch dates dil mein bas jaati hain. 20 September mere liye wahi date hai. ❤️</b></p>
+    <p>Aur mujhe lagta hai humari story bhi kuch aisi hi hai.</p>
+    <p>Perfect nahi.<br>Lekin real.</p>
+    <p>Kabhi hasi, kabhi fights, kabhi sorry, kabhi pyaar, kabhi pagalpan…</p>
+    <p class="big"><b>but always us.</b></p>
+    <p>Butterfly, aapko kabhi bhi ye dar rakhne ki zarurat nahi hai ki main aapko chhod kar chala jaunga.</p>
+    <p>Main aapko dhokha nahi dena chahta.<br>Main aapko hurt nahi karna chahta.<br>Aur main aapke trust ko kabhi jaan-bujhkar todna nahi chahta.</p>
+    <p>Main bas itna chahta hoon ki chahe humare beech kitni bhi problems aayein, hum baat karein, ek-dusre ko samjhein aur saath rahein.</p>
+    <p class="big"><b>Main hamesha aapka hoon, Babu.<br>Aur aapka hi ban kar rehna chahta hoon.</b></p>
+    <p>Aap meri Butterfly ho.<br>Meri Baby ho.<br>Meri Babu ho.<br>Meri Masooqa ho.<br>Meri Mommy ho.</p>
+    <p class="big"><b>Aur sabse important…<br>Aap meri favourite person ho. ❤️</b></p>
+    <p>Thank you meri life mein aane ke liye.<br>Thank you mujhe care karne ke liye.<br>Thank you meri chinta karne ke liye.<br>Thank you mere liye time nikalne ke liye.<br>Thank you meri mistakes forgive karne ke liye.<br>Thank you mujhe itna pyaar dene ke liye.</p>
+    <p>Aur thank you…<br><b>mujhe apna Kahna banane ke liye. ❤️</b></p>
+    <p class="big"><b>Happy First Anniversary, meri Butterfly. 🦋</b></p>
+    <p>Aaj se ek saal pehle mujhe nahi pata tha ki Instagram ka ek message meri life mein itni beautiful story shuru kar dega.</p>
+    <p>Aaj ek saal baad main bas ek cheez jaanta hoon—</p>
+    <p class="big"><b>I still choose you.<br>I still want you.<br>I still want us.</b></p>
+    <p class="big"><b>Aur Babu…<br>main har din aapko pehle se bhi zyada chahta hoon. ❤️</b></p>
+     <p class="romantic-line" style="margin:35px auto;font-size:clamp(1.45rem,4.5vw,2.5rem)">
+       I love you, Baby. ❤️<br>
+       I love you, Babu. ❤️<br>
+       I love you, Khuchupuchu. ❤️<br>
+       I love you, Mommy. ❤️<br>
+       I love you, Masooqa. ❤️<br>
+       I love you, Butterfly. 🦋
+     </p>
+     <div class="apology-box">
+       <div class="small-heart">🫶</div>
+       <p class="big"><b>Ek baar phir dil se — I am sorry, Babu.</b></p>
+       <p>Aapko hurt karne ka mera kabhi intention nahi tha. 20 September bhoolna meri galti thi, aur main us galti ko lightly nahi leta. Aap meri life ka bahut precious part ho. Main chahta hoon ki meri stupid mistakes ke beech bhi aapko meri ek cheez hamesha clear dikhe — <b>main aapse bahut, bahut, bahut pyaar karta hoon.</b></p>
+       <p class="big"><b>Meri memory kabhi-kabhi fail ho sakti hai, meri feelings nahi. ❤️</b></p>
+     </div>
+
+    <p style="margin-top:40px">Always yours,<br><span class="script" style="font-size:2.4rem">Aapka Kahna 🫶</span></p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="screen final">
+ <div class="center reveal">
+  <span class="butterfly">🦋</span>
+  <div class="eyebrow">20 • 09 • 2026</div>
+  <h2 class="title">Happy 1st<br><span class="glow">Anniversary</span></h2>
+  <p class="subtitle">One year down…<br>and so many more memories to make.</p>
+  <p class="serif" style="font-size:2rem">I love you, Babu. ❤️</p>
+   <p class="romantic-line" style="font-size:clamp(1.35rem,4vw,2.1rem);margin:18px auto">Baby • Babu • Khuchupuchu • Mommy • Masooqa • Butterfly 🦋</p>
+   <p class="fade">I am sorry for the date I forgot. I will never forget how much you mean to me.</p>
+  <button class="btn" id="chooseBtn">One more thing… ❤️</button>
+  <div id="choice" class="hidden" style="margin-top:35px"><p class="eyebrow">If I had to choose again…</p><p class="promise glow">I would still choose you. ❤️</p><p class="script" style="font-size:2.4rem">— Aapka Kahna</p></div>
+ </div>
+</section>
+</main>
+<script>const SONG_SRC="song.mp3";</script>
+<script>
+const intro=document.getElementById('intro'),openBtn=document.getElementById('openBtn');
+openBtn.onclick=()=>{
+  intro.classList.add('open');
+  music.currentTime=0;
+  music.play().then(()=>{playing=true;mb.textContent='❚❚'}).catch(()=>{});
+  setTimeout(()=>intro.classList.add('hide'),650);
+};
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(x=>obs.observe(x));
+window.addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;document.getElementById('progress').style.width=(scrollY/h*100)+'%'});
+document.getElementById('secretBtn').onclick=()=>document.getElementById('secret').classList.toggle('open');
+document.getElementById('letterBtn').onclick=()=>{const w=document.getElementById('letterWrap');w.classList.remove('hidden');document.getElementById('letterBtn').classList.add('hidden');setTimeout(()=>w.scrollIntoView({behavior:'smooth',block:'start'}),100)};
+document.getElementById('chooseBtn').onclick=()=>{document.getElementById('choice').classList.remove('hidden');for(let i=0;i<16;i++){const s=document.createElement('span');s.textContent='🦋';s.style.position='fixed';s.style.left=(50+Math.random()*30-15)+'%';s.style.top=(55+Math.random()*10-5)+'%';s.style.zIndex=30;s.style.fontSize=(18+Math.random()*18)+'px';s.style.transition='transform 2s,opacity 2s';document.body.appendChild(s);requestAnimationFrame(()=>{s.style.transform=`translate(${(Math.random()-.5)*300}px,${-150-Math.random()*250}px) rotate(${Math.random()*80-40}deg)`;s.style.opacity=0});setTimeout(()=>s.remove(),2100)}};
+const music=document.getElementById('music'),mb=document.getElementById('musicBtn');let playing=false;
+music.src=SONG_SRC;
+music.preload="none";
+mb.onclick=()=>{if(playing){music.pause();playing=false;mb.textContent='♫'}else{music.play().then(()=>{playing=true;mb.textContent='❚❚'}).catch(()=>{})}};
+</script>
+</body>
+</html>
